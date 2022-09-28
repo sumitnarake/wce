@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: snow;
+        }
+        
+        .nav {
+            display: grid;
+            grid-template-columns: 1fr 10fr 1fr;
+            grid-gap: 5rem;
+        }
+        
+        .left {
+            border-radius: 10px;
+            background-color: turquoise;
+            /* border: 2px solid black; */
+        }
+        
+        .mid li {
+            margin: auto 10px;
+            text-align: center;
+            display: inline-block;
+        }
+        
+        .mid {
+            border-radius: 10px;
+            background-color: turquoise;
+            /* border: 2px solid black; */
+        }
+        
+        .mid a {
+            cursor: pointer;
+            /* color: white; */
+            text-decoration: none;
+        }
+        
+        .right {
+            border-radius: 10px;
+            background-color: turquoise;
+            /* border: 2px solid black; */
+        }
+        
+        .right button {
+            border: 0px;
+            margin: 15px 18px;
+            background-color: turquoise;
+        }
+        
+        .right a {
+            color: black;
+            text-decoration: none;
+        }
+        
+        .container {
+            border-radius: 10px;
+            padding: 15px;
+            text-align-last: auto;
+            color: darkorange;
+            height: 500px;
+            margin: 20px 0px;
+            /* border: 2px solid black; */
+            background-image: url('su.jpeg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        
+        .container h1 {
+            color: black;
+            display: block;
+            text-align: center;
+            margin: 30px auto;
+        }
+        
+        .order {
+            border-radius: 10px;
+            display: flex;
+            /* border: 2px solid tomato; */
+            /* background-color: orange; */
+        }
+        
+        .box {
+            border-radius: 10px;
+            color: white;
+            background-image: url('lap.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            /* border: 2px solid red; */
+            margin: 15px;
+            /* height: 300px; */
+            padding: 15px;
+            /* background-color: tomato; */
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        div>button {
+            cursor: pointer;
+            margin: 20px 20px;
+            background-color: tomato;
+            /* text-align: center; */
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        
+        .box img {
+            border-radius: 10px;
+            margin: auto 30px;
+            width: 50px;
+            height: 50px;
+        }
+        
+        .clients {
+            border-radius: 10px;
+            background-image: url('contact.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            text-align: center;
+            /* border: 2px solid black; */
+            margin: 20px;
+            height: 400px;
+        }
+        
+        .clients img {
+            margin: 20px;
+            width: 80px;
+            height: 80px;
+        }
+        
+        .contact {
+            border-radius: 10px;
+            background-image: url('connect.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            /* border: 2px solid black; */
+            margin: 20px;
+            text-align: center;
+            height: 400px;
+        }
+        
+        .contact input {
+            margin: 10px;
+        }
+        
+        .contact select {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="left">
+            <img src="" alt="">
+        </div>
+        <div class="mid">
+            <ul>
+                <b>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#jdn">CONTACT US</a></li>
+                </b>
+            </ul>
+        </div>
+        <div class="right">
+            <button><a href="HTML forms.html">Sign in</a></button>
+        </div>
+    </div>
+    <div class="container">
+        <b>
+            <h1>JDN LAPTOPS KOLHAPUR</h1>
+        </b>
+    </div>
+    <h1>------ORDER NOW-----</h1>
+    <div class="order">
+        <div class="box">
+            <div><img src="appele.png" alt="ERROR ON LOADING"></div>
+            <div>
+                <h2>MACBOOK</h2>
+            </div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam cumque, adipisci nulla consectetur dolor voluptate, incidunt voluptas, quis earum eum accusamus magni libero odit nobis consequuntur. Libero molestiae nemo ipsam.
+            <div><button>
+                    ORDER NOW
+                </button>
+            </div>
+        </div>
+        <div class="box">
+            <div><img src="dell.jpeg" alt="ERROR ON LOADING"></div>
+            <div>
+                <h2>DELL,ASUS</h2>
+            </div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam cumque, adipisci nulla consectetur dolor voluptate, incidunt voluptas, quis earum eum accusamus magni libero odit nobis consequuntur. Libero molestiae nemo ipsam.
+            <div><button>
+                    ORDER NOW
+                </button>
+            </div>
+        </div>
+        <div class="box">
+            <div><img src="hp.png" alt="ERROR ON LOADING"></div>
+            <div>
+                <h2>HP,ACER</h2>
+            </div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam cumque, adipisci nulla consectetur dolor voluptate, incidunt voluptas, quis earum eum accusamus magni libero odit nobis consequuntur. Libero molestiae nemo ipsam.
+            <div><button>
+                    ORDER NOW
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="clients">
+        <div>OUR CLIENTS</div>
+        <img src="appele.png" alt="ERROR WHILLE LOADING">
+        <img src="dell.jpeg" alt="ERROR WHILLE LOADING">
+        <img src="asus.png" alt="ERROR WHILLE LOADING">
+        <img src="hp.png" alt="ERROR WHILLE LOADING">
+        <img src="acer.png" alt="ERROR WHILLE LOADING">
+
+    </div>
+    <div id="jdn" class="contact">
+        <div>
+            <h2>CONTACT US</h2>
+        </div>
+        <form action="action.php">
+            <div><input type="text" placeholder="NAME"></div>
+            <div><input type="number" placeholder="MOB.No."></div>
+            <div><input type="email" placeholder="EMAIL"></div>
+            <div>
+                GENDER: MALE
+                <input type="radio" name="MYGENDER"> FEMALE
+                <input type="radio" name="MYGENDER"> OTHER
+                <input type="radio" name="MYGENDER">
+            </div>
+            <div>
+                <select>
+                    <option value="customer">select---</option>
+                    <option value="customer">student</option>
+                    <option value="customer">office worker</option>
+                    <option value="customer">other</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="submit">
+            </div>
+            <div><input type="reset"></div>
+        </form>
+    </div>
+</body>
+
+</html>
